@@ -1,6 +1,17 @@
 #!/bin/env bash
 
-if [[ $* == *--help ]]; then
+if [[ $* == *-contribute ]]; then
+    echo
+    echo -e "\e[1mcottonfetch v1.7.5\e[0m"
+    echo "to contribute to cottonfetch, you need to make a github account and go onto this:"
+    echo "https://github.com/servalx4/cottonfetch"
+    echo "make a fork of this project, modify the file with your change and"
+    echo "open a pull request describing the intent of this change.
+    echo "shortly after (takes some time) your pull request will be merged or declined, depending on the quality"
+    echo "thank you for looking forward to cottonfetch <3"
+    echo
+
+elif [[ $* == *--help ]]; then
     echo
     echo -e "\e[1mcottonfetch v1.7.5\e[0m"
     echo "created by servalx4"
@@ -8,12 +19,13 @@ if [[ $* == *--help ]]; then
     echo "usage:"
     echo "cottonfetch | the fetch"
     echo "cottonfetch --help | this message"
-    echo
+    echo "cottonfetch --contribute | learn how to contribute"
     echo "thank you for using cottonfetch <3"
     echo
     echo "shoutout to Hikari on discord for helping me fix fonts, without them cottonfetch would not be possible anymore!"
     echo "shoutout to ImmaculateKatz (github) for helping me with a LOT of distro specific stuff!"
     echo
+
 
 else
 
