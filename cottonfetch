@@ -7,7 +7,7 @@ if [[ $* == *-contribute ]]; then
     echo "https://github.com/servalx4/cottonfetch"
     echo "make a fork of this project, modify the file with your change and"
     echo "open a pull request describing the intent of this change.
-    echo "shortly after (takes some time) your pull request will be merged or declined, depending on the quality"
+    echo "shortly after your pull request will be merged or declined, depending on the quality"
     echo "thank you for looking forward to cottonfetch <3"
     echo
 
@@ -23,7 +23,7 @@ elif [[ $* == *--help ]]; then
     echo "thank you for using cottonfetch <3"
     echo
     echo "shoutout to Hikari on discord for helping me fix fonts, without them cottonfetch would not be possible anymore!"
-    echo "shoutout to ImmaculateKatz (github) for helping me with a LOT of distro specific stuff!"
+    echo "shoutout to ImmaculateKatz on github for helping me with a LOT of distro specific stuff!"
     echo
 
 
